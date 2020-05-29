@@ -1,0 +1,48 @@
+{
+    "name": "swoolecan/auth",
+    "description": "swoole用户认证组件",
+    "keywords": [
+        "swoolecan",
+        "hyperf",
+        "auth",
+        "swoole",
+        "user"
+    ],
+    "homepage": "https://github.com/swoolecan/auth",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "swoolecan",
+            "homepage": "https://github.com/swoolecan",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.3",
+        "ext-swoole": ">=4.4",
+        "hyperf/database": "~1.1.0",
+        "phper666/jwt-auth": "~3.0.1", 
+        "hyperf/db-connection": "^1.1",
+        "hyperf/utils": "~1.1.22"
+    },
+    "require-dev": {
+        "hyperf/testing": "~1.1.0"
+    },
+    "autoload": {
+    },
+    "autoload-dev": {
+    },
+    "extra": {
+        "hyperf": {
+            "config": "Swoole\\Auth\\ConfigProvider"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
