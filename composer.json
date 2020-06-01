@@ -29,8 +29,14 @@
         "hyperf/testing": "~1.1.0"
     },
     "autoload": {
+        "psr-4": {
+            "Swoolecan\\Auth\\": "src"
+        },
     },
     "autoload-dev": {
+        "psr-4": {
+            "Swoolecan\\Auth\\Test\\": "tests"
+        }
     },
     "extra": {
         "hyperf": {
